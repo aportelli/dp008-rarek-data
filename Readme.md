@@ -19,6 +19,11 @@ To download the dataset, start by bootstrapping a local, dedicated [Rclone](http
 
 Once Rclone is setup, execute `./download.sh` without arguments to download the dataset. *If downloading the dataset on a personal computer, please note that the total dataset has a size of 260 GB, and as much space is required to unarchive it.*
 
-Once the dataset is downloaded, it can be unarchived using the command `./expand.sh` without argument. Once expanded, all the files of the form `*.tar.*` can be savely removed.
+Once the dataset is downloaded, it can be unarchived using the command `./expand.sh` without argument. Once expanded, all the files of the form `*.tar.*` can be safely removed.
 
 ### Using S3
+If you are used to interact with S3 object storage, you can download the dataset using the S3 credentials below. These credentials only allow read-only access to the storage. One advantage over the solution above is that it allows do download only parts of the dataset.
+
+Access key `jv3wzylubulrnrtynyjwj5jchxja`                     
+<br>Secret key `jy4jyvi4nrzn3mz5lxi5fcui5ipvxedrsn2hnmozhvgkkwgq2j2fk`
+<br>S3 endpoint `https://gateway.eu1.storjshare.io`                   
