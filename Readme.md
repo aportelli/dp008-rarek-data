@@ -24,6 +24,6 @@ Once the dataset is downloaded, it can be unarchived using the command `./expand
 ### Using S3
 If you are used to interact with S3 object storage, you can download the dataset using the S3 credentials below. These credentials only allow read-only access to the storage. One advantage over the solution above is that it allows do download only parts of the dataset.
 
-Access key `jv3wzylubulrnrtynyjwj5jchxja`                     
-<br>Secret key `jy4jyvi4nrzn3mz5lxi5fcui5ipvxedrsn2hnmozhvgkkwgq2j2fk`
-<br>S3 endpoint `https://gateway.eu1.storjshare.io`                   
+Access key `jv3wzylubulrnrtynyjwj5jchxja`  
+Secret key `jy4jyvi4nrzn3mz5lxi5fcui5ipvxedrsn2hnmozhvgkkwgq2j2fk`  
+S3 endpoint `https://gateway.eu1.storjshare.io`                   
