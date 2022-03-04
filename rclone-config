@@ -1,0 +1,8 @@
+[storj-dp008-rarek-public]
+type = s3
+provider = Other
+env_auth = false
+access_key_id = jv3wzylubulrnrtynyjwj5jchxja
+secret_access_key = jy4jyvi4nrzn3mz5lxi5fcui5ipvxedrsn2hnmozhvgkkwgq2j2fk
+endpoint = https://gateway.eu1.storjshare.io
+
