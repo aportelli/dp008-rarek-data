@@ -26,4 +26,7 @@ If you are used to interact with S3 object storage, you can download the dataset
 
 Access key `jv3wzylubulrnrtynyjwj5jchxja`  
 Secret key `jy4jyvi4nrzn3mz5lxi5fcui5ipvxedrsn2hnmozhvgkkwgq2j2fk`  
-S3 endpoint `https://gateway.eu1.storjshare.io`                   
+S3 endpoint `https://gateway.eu1.storjshare.io`    
+
+## Issues
+If you encounter an issue using this dataset, please submit issues to this repository, or contact directly the authors of [arXiv:2202.08795](https://arxiv.org/abs/2202.08795).
