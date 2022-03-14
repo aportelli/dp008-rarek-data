@@ -1,6 +1,6 @@
 # Lattice dataset for the paper "Simulating rare kaon decays $K^{+}\to\pi^{+}\ell^{+}\ell^{-}$ using domain wall lattice QCD with physical light quark masses"
 
-This repository contains the tool and access credentials to download the correlation functions produced and analysed in [arXiv:2202.08795](https://arxiv.org/abs/2202.08795). This dataset was produced by the measurement program posted [here]() based on the [Grid](https://github.com/paboyle/Grid) and [Hadrons](https://github.com/aportelli/Hadrons) libraries.
+This repository contains the tool and access credentials to download the correlation functions produced and analysed in [arXiv:2202.08795](https://arxiv.org/abs/2202.08795). This dataset was produced by the measurement program posted [here](https://github.com/aportelli/dp008-rarek-code) based on the [Grid](https://github.com/paboyle/Grid) and [Hadrons](https://github.com/aportelli/Hadrons) libraries.
 
 The dataset is hosted on the [Storj](https://www.storj.io/) decentralised cloud storage. This repository contains a set of automatised scripts to download and unpack the dataset on a UNIX OS and does not require any non-standard dependency to be installed.
 
@@ -26,4 +26,7 @@ If you are used to interact with S3 object storage, you can download the dataset
 
 Access key `jv3wzylubulrnrtynyjwj5jchxja`  
 Secret key `jy4jyvi4nrzn3mz5lxi5fcui5ipvxedrsn2hnmozhvgkkwgq2j2fk`  
-S3 endpoint `https://gateway.eu1.storjshare.io`                   
+S3 endpoint `https://gateway.eu1.storjshare.io`    
+
+## Issues
+If you encounter an issue using this dataset, please submit issues to this repository, or contact directly the authors of [arXiv:2202.08795](https://arxiv.org/abs/2202.08795).
