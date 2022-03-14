@@ -17,9 +17,9 @@ less data/README.txt       # read data description
 ### Using embedded Rclone (self-contained, the simplest)
 To download the dataset, start by bootstrapping a local, dedicated [Rclone](https://rclone.org/) installation by executing `./bootstrap.sh` without arguments. This step is necessary even if you have Rclone installed, this script sets up an Rclone installation with credential to Storj DCS confined within the script directory, to avoid interfering with a system-wide Rclone installation.
 
-Once Rclone is setup, execute `./download.sh` without arguments to download the dataset. *If downloading the dataset on a personal computer, please note that the total dataset has a size of 260 GB, and as much space is required to unarchive it.*
+Once Rclone is setup, execute `./download.sh` without arguments to download the whole dataset. You can also download a partial dataset by specifying the desired subdirectory to download as an argument (e.g. `k000_p100/3pt/VC3`, see `README.txt`). *If downloading the dataset on a personal computer, please note that the total dataset has a size of 260 GB, and as much space is required to unarchive it.*
 
-Once the dataset is downloaded, it can be unarchived using the command `./expand.sh` without argument. Once expanded, all the files of the form `*.tar.*` can be safely removed.
+Once the dataset is downloaded, it can be unarchived using the command `./expand.sh`, with the subdirectory to expand as an argument . Once expanded, all the files of the form `*.tar.*` can be safely removed.
 
 ### Using S3
 If you are used to interact with S3 object storage, you can download the dataset using the S3 credentials below. These credentials only allow read-only access to the storage. One advantage over the solution above is that it allows do download only parts of the dataset.
