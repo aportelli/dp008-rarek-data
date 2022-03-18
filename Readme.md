@@ -1,4 +1,4 @@
-# Lattice dataset for the paper "Simulating rare kaon decays $K^{+}\to\pi^{+}\ell^{+}\ell^{-}$ using domain wall lattice QCD with physical light quark masses"
+# Lattice dataset for the paper "Simulating rare kaon decays using domain wall lattice QCD with physical light quark masses"
 
 This repository contains the tool and access credentials to download the correlation functions produced and analysed in [arXiv:2202.08795](https://arxiv.org/abs/2202.08795). This dataset was produced by the measurement program posted [here](https://github.com/aportelli/dp008-rarek-code) based on the [Grid](https://github.com/paboyle/Grid) and [Hadrons](https://github.com/aportelli/Hadrons) libraries.
 
