@@ -1,5 +1,5 @@
 # Lattice dataset for the paper "Simulating rare kaon decays using domain wall lattice QCD with physical light quark masses"
-[![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
+[![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/) [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.6369177.svg)](https://doi.org/10.5281/zenodo.6369177)
 
 This repository contains the tool and access credentials to download the correlation functions produced and analysed in [arXiv:2202.08795](https://arxiv.org/abs/2202.08795). This dataset was produced by the measurement program posted [here](https://github.com/aportelli/dp008-rarek-code) based on the [Grid](https://github.com/paboyle/Grid) and [Hadrons](https://github.com/aportelli/Hadrons) libraries.
 
